@@ -3,7 +3,7 @@
 <form action="/bahan/store" method="POST">
     @csrf
     <div class="container">
-        <h3 class="mt-5 mb-5 text-center">Tambah </h3>
+        <h3 class="mt-5 mb-5 text-center">Tambah Siswa</h3>
         <div class="row mb-3">
             <label for="inputEmail3" class="col-sm-2 col-form-label">Nama</label>
             <div class="col-sm-10">
