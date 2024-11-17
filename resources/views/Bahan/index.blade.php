@@ -40,7 +40,7 @@
                         @csrf
                         @method('delete')
                         <button class="btn btn-sm btn-danger mt-2" type="submit" onclick="return confirm('apakah kamu yakin ?')">
-                            Delte
+                            Delete
                         </button>
                     </form>
                 </td>
