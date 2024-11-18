@@ -13,8 +13,20 @@ Route::get('/bahanSotoBetawi', function () {
 
 
 Route::get('/datapembeli', [BahanController::class, 'index']);
-
+// create route
 Route::get('/datapembeli/create', [BahanController::class, 'create']);
 
 // route untuk siswa/store
-Route::post('/bahan/store', [BahanController::class, 'store']);
+Route::post('/datapembeli', [BahanController::class, 'store']);
+
+// Route Update
+Route::get('/datapembeli/{id}/update', [BahanController::class, 'update']);
+
+// route prosesupdate
+Route::put('/bahan/{id}', [BahanController::class, 'prosesupdate']);
+
+// route untuk delete data
+Route::delete('/bahan/{id}', [BahanController::class, 'deleteData']);
+
+
+

@@ -12,10 +12,10 @@ class Bahan extends Model
     protected $table = 'soto'; // Nama tabel yang digunakan adalah 'soto'
 
     protected $fillable = [
-        'nama',
-        'nis',
-        'nisn',
-        'gender',
-        'alamat',
+        'menu',
+        'older_items',
+        'LevelPedas',
+        'Riviews',
+        'payment',
     ];
 }
